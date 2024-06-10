@@ -8,9 +8,9 @@ import requests
 
 # Global Variables
 text = ""
-ip_address = "12"
-port_number = str(sys.argv[2])
-interval = int(sys.argv[3])
+ip_address = str(sys.argv[2])
+port_number = str(sys.argv[3])
+interval = int(sys.argv[4])
 
 def send_post_req():
     try:
